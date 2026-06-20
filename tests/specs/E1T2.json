@@ -1,0 +1,13 @@
+[
+  {
+    "name": "/roll replies with a dice roll result",
+    "steps": [
+      {
+        "send": { "text": "/roll" },
+        "expect": [
+          { "method": "sendMessage" }
+        ]
+      }
+    ]
+  }
+]
